@@ -1,0 +1,121 @@
+
+% Geometry package, setting margin.
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{multicol}
+
+% Enum control.
+\usepackage{enumerate}
+
+% Hyperlink
+\usepackage[%
+    pdfstartview=FitH,%
+    CJKbookmarks=true,%
+    bookmarks=true,%
+    bookmarksnumbered=true,%
+    bookmarksopen=true,%
+    colorlinks=true,%
+    citecolor=black,%
+    linkcolor=black,%
+    anchorcolor=black,%
+    urlcolor=black%
+]{hyperref}
+
+% Title format
+\usepackage{titlesec}
+% List of figure, table, etc.
+\usepackage{titletoc}
+% Table control
+\usepackage{booktabs}
+% Appendix control
+\usepackage[title,titletoc,header]{appendix}
+
+% Font size control
+\usepackage{type1cm}
+% Indentation control
+\usepackage{indentfirst}
+\usepackage{changepage}
+
+% Color control
+\usepackage{color,xcolor}
+
+%% AMS LaTeX
+\usepackage{amsmath,amssymb}
+\usepackage{latexsym,textcomp}
+
+%% 数学公式中的黑斜体
+% \usepackage{bm}
+%% 调整公式字体大小：\mathsmaller, \mathlarger
+% \usepackage{relsize}
+
+% graphics
+\usepackage{graphicx}
+\usepackage{subfig}
+
+%%%% pgf/tikz graph
+\usepackage{pgf,tikz}
+\usetikzlibrary{shapes,automata,snakes,backgrounds,arrows}
+\usetikzlibrary{mindmap}
+
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+%% 有时会出现\headheight too small的warning
+\setlength{\headheight}{15pt}
+
+
+%%%% 设置listings宏包用来粘贴源代码
+% Source code
+\usepackage{listings}
+% Algorithm
+\usepackage[ruled,vlined]{algorithm2e}
+% Tree graph
+\usepackage{synttree}
+
+\lstloadlanguages{}
+\lstset{
+showstringspaces=false,              %% 设定是否显示代码之间的空格符号
+numbers=left,                        %% 在左边显示行号
+numberstyle=\tiny,                   %% 设定行号字体的大小
+basicstyle=\footnotesize,                    %% 设定字体大小\tiny, \small, \Large等等
+keywordstyle=\color{blue!70}, commentstyle=\color{red!50!green!50!blue!50},
+                                     %% 关键字高亮
+frame=shadowbox,                     %% 给代码加框
+rulesepcolor=\color{red!20!green!20!blue!20},
+escapechar=`,                        %% 中文逃逸字符，用于中英混排
+xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+breaklines,                          %% 这条命令可以让LaTeX自动将长的代码行换行排版
+extendedchars=false                  %% 这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
+}
+%%%% listings宏包设置结束
+
+%% 一号, 1.4倍行距
+\newcommand{\yihao}{\fontsize{26pt}{36pt}\selectfont}
+%% 二号, 1.25倍行距
+\newcommand{\erhao}{\fontsize{22pt}{28pt}\selectfont}
+%% 小二, 单倍行距
+\newcommand{\xiaoer}{\fontsize{18pt}{18pt}\selectfont}
+%% 三号, 1.5倍行距
+\newcommand{\sanhao}{\fontsize{16pt}{24pt}\selectfont}
+%% 小三, 1.5倍行距
+\newcommand{\xiaosan}{\fontsize{15pt}{22pt}\selectfont}
+%% 四号, 1.5倍行距
+\newcommand{\sihao}{\fontsize{14pt}{21pt}\selectfont}
+%% 半四, 1.5倍行距
+\newcommand{\bansi}{\fontsize{13pt}{19.5pt}\selectfont}
+%% 小四, 1.5倍行距
+\newcommand{\xiaosi}{\fontsize{12pt}{18pt}\selectfont}
+%% 大五, 单倍行距
+\newcommand{\dawu}{\fontsize{11pt}{11pt}\selectfont}
+%% 五号, 单倍行距
+\newcommand{\wuhao}{\fontsize{10.5pt}{10.5pt}\selectfont}
+
+%% 设定段间距
+\setlength{\parskip}{0.5\baselineskip}
+%% 设定行距
+\linespread{1}
+%% 中文破折号，据说来自清华模板
+\newcommand{\pozhehao}{\kern0.3ex\rule[0.8ex]{2em}{0.1ex}\kern0.3ex}
+%% 设定itemize环境item的符号
+\renewcommand{\labelitemi}{$\bullet$}
+
+\bibliographystyle{unsrt}
