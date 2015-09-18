@@ -9,44 +9,12 @@
 %% 中文习惯是设定首行缩进为2em. 注意此设置一定要在document环境之中, 这可能与\setlength作用范围相关
 \setlength{\parindent}{2em}
 
-% \title{A Test XeLaTex Document}
-% \author{Jiayuan MAO}
-% \maketitle
+\title{A Test XeLaTex Document}
+\author{Jiayuan MAO}
+\maketitle
 
-% \tableofcontents
-% \listoffigures
-% \listoftables
-
-\paragraph{Subproblem 1.} \quad\par
-\[ \Pr[X=k] = \binom{n}{k}~p^k (1-p)^{n-k} \]
-
-\paragraph{Subproblem 2.} \quad\par
-\[ \Pr[X=k \wedge N=n] = \frac{e^{-\lambda}\lambda^n}{n!}~\binom{n}{k} ~p^k (1-p)^{n-k} \]
-
-\paragraph{Subproblem 4.} \quad\par
-Here's a brief proof of the conclusion you used in your solution.
-
-\begin{proof}
-Prove by calculation.
-
-\begin{eqnarray*}
-	\E[X] & = & \sum_{n=1}^{\infty} \Pr[N=n] \sum_{k=1}^{\infty} \Pr[X=k\big|N=n]\\
-	& = & \sum_{n=1}^{\infty} \Pr[N=n] \sum_{k=1}^{\infty} N p\\
-	& = & \lambda \cdot p
-\end{eqnarray*}
-
-\end{proof}
-
-\paragraph{Bonus} \quad\par
-\begin{eqnarray*}
-	\Pr[X=k] & = & \sum_{n=k}^{\infty} \frac{e^{-\lambda}\lambda^n}{n!}~\binom{n}{k} ~p^k (1-p)^{n-k}\\
-	& = & e^{-\lambda} \sum_{n=k}^{\infty} \frac{\lambda^n}{n!} \cdot \frac{n!}{k!(n-k)!} \cdot p^k (1-p)^{n-k}\\
-	& = & \frac{e^{-\lambda}}{k!} p^k (1-p)^{-k} \sum_{n=k}^{\infty} \frac{[\lambda(1-p) ]^n}{(n-k)!}\\
-	& = & \frac{e^{-\lambda}}{k!} p^k (1-p)^{-k} \cdot [\lambda(1-p) ]^k \sum_{n=0}^{\infty} \frac{[\lambda(1-p) ]^n}{n!}\\
-	& = & \frac{e^{-\lambda}}{k!} p^k (1-p)^{-k} \cdot [\lambda(1-p) ]^k \cdot e^{\lambda (-(p-1))}\\
-	& = & \frac{\lambda ^k~p^k~e^{-p\lambda}}{k!}
-\end{eqnarray*}
-
-\[ \sum_{n=0}^\infty \frac{x^n}{n!} = e^x\]
+\tableofcontents
+\listoffigures
+\listoftables
 
 \end{document}
