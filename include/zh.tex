@@ -1,0 +1,91 @@
+% Begin CJK
+\usepackage{xltxtra,fontspec,xunicode}
+
+%% \CJKsetecglue{\hskip 0.15em plus 0.05em minus 0.05em}
+%% slanfont: 允许斜体
+%% boldfont: 允许粗体
+%% CJKnormalspaces: 仅忽略汉字之间的空白,但保留中英文之间的空白。
+%% CJKchecksingle: 避免单个汉字单独占一行。
+\usepackage[slantfont, boldfont]{xeCJK}
+
+% Chinese line break strategy
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+
+% 设置中文标点样式，支持quanjiao、banjiao、kaiming等多种方式
+\punctstyle{kaiming}
+
+% Default Chinese font
+\setCJKmainfont[BoldFont={Adobe Heiti Std}, ItalicFont={Adobe Kaiti Std}]{Adobe Song Std}
+% Chinese sans font
+\setCJKsansfont[BoldFont={Adobe Heiti Std}]{Adobe Kaiti Std}
+% Chinese mono font
+\setCJKmonofont{Adobe Heiti Std}
+
+% English sarif font
+\setmainfont{DejaVu Serif}
+% English sans font
+\setsansfont{DejaVu Sans}
+% English mono font
+\setmonofont{DejaVu Sans Mono}
+
+% CJK fonts
+\setCJKfamilyfont{song}{Adobe Song Std}
+\setCJKfamilyfont{kai}{Adobe Kaiti Std}
+\setCJKfamilyfont{hei}{Adobe Heiti Std}
+\setCJKfamilyfont{fangsong}{Adobe Fangsong Std}
+\setCJKfamilyfont{lisu}{LiSu}
+\setCJKfamilyfont{youyuan}{YouYuan}
+
+%% 自定义宋体
+\newcommand{\song}{\CJKfamily{song}}
+%% 自定义楷体
+\newcommand{\kai}{\CJKfamily{kai}}
+%% 自定义黑体
+\newcommand{\hei}{\CJKfamily{hei}}
+%% 自定义仿宋体
+\newcommand{\fangsong}{\CJKfamily{fangsong}}
+%% 自定义隶书
+\newcommand{\lisu}{\CJKfamily{lisu}}
+%% 自定义幼圆
+\newcommand{\youyuan}{\CJKfamily{youyuan}}
+
+% Begin mathematical envs
+\newtheorem{example}{例}
+\newtheorem{problem}{问题}
+\newenvironment{proof}{\noindent\textbf{证明\ }}{\hspace*{\fill}$\Box$\medskip}
+\newenvironment{solution}{\noindent\textbf{解答\ }}{\hspace*{\fill}$\Box$\medskip}
+\newtheorem{algo}{算法}
+
+\newtheorem{definition}{定义}
+\newtheorem{axiom}{公理}
+\newtheorem{theorem}{定理}
+\newtheorem{lemma}{引理}
+\newtheorem{corollary}{推论}
+
+\newtheorem{property}{性质}
+\newtheorem{proposition}{命题}
+\newtheorem{remark}{注解}
+\newtheorem{condition}{条件}
+\newtheorem{assumption}{假设}
+\newtheorem{conclusion}{结论}
+
+% Section title
+\renewcommand{\contentsname}{目录}
+\renewcommand{\abstractname}{摘要}
+\renewcommand{\indexname}{索引}
+\renewcommand{\listfigurename}{插图目录}
+\renewcommand{\listtablename}{表格目录}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\appendixname}{附录}
+\renewcommand{\appendixpagename}{附录}
+\renewcommand{\appendixtocname}{附录}
+\renewcommand\refname{参考文献}
+% \renewcommand\bibname{参考文献}
+
+% Section title format
+\titleformat{\chapter}{\centering\huge}{第\thechapter{}章}{1em}{\textbf}
+\titleformat{\section}{\centering\sihao}{\thesection}{1em}{\textbf}
+\titleformat{\subsection}{\xiaosi}{\thesubsection}{1em}{\textbf}
+\titleformat{\subsubsection}{\xiaosi}{\thesubsubsection}{1em}{\textbf}
