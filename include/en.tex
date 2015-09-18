@@ -1,0 +1,39 @@
+% Begin mathematical envs
+\newtheorem{example}{Example}
+\newtheorem{problem}{Problem}
+\newenvironment{proof}{\noindent\textbf{Proof\ }}{\hspace*{\fill}$\Box$\medskip}
+\newenvironment{solution}{\noindent\textbf{Sol\ }}{\hspace*{\fill}$\Box$\medskip}
+\newtheorem{algo}{Algorithm}
+
+\newtheorem{definition}{Definition}
+\newtheorem{axiom}{Axiom}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+\newtheorem{property}{Property}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{condition}{Condition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{conclusion}{Conclusion}
+
+%% 章节等名称重定义
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\abstractname}{Abstract}
+\renewcommand{\indexname}{Index}
+\renewcommand{\listfigurename}{List of Figure}
+\renewcommand{\listtablename}{List of Table}
+\renewcommand{\figurename}{Figure}
+\renewcommand{\tablename}{Table}
+\renewcommand{\appendixname}{Appendix}
+\renewcommand{\appendixpagename}{Appendix}
+\renewcommand{\appendixtocname}{Appendix}
+\renewcommand\refname{Reference}
+% \renewcommand\bibname{Reference}
+
+%% 设置chapter、section与subsection的格式
+\titleformat{\chapter}{\centering\huge}{Chapter \thechapter{}}{1em}{\textbf}
+\titleformat{\section}{\centering\sihao}{\thesection}{1em}{\textbf}
+\titleformat{\subsection}{\xiaosi}{\thesubsection}{1em}{\textbf}
+\titleformat{\subsubsection}{\xiaosi}{\thesubsubsection}{1em}{\textbf}
