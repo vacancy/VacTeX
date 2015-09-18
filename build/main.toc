@@ -1,1 +1,3 @@
+\contentsline {paragraph}{Subproblem 1.}{1}{Doc-Start}
+\contentsline {paragraph}{Subproblem 1.}{1}{Doc-Start}
 \contentsfinish 

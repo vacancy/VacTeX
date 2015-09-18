@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.12.30)  15 SEP 2015 10:36
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.12.30)  18 SEP 2015 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1042,31 +1042,47 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \MTr@childsidesep=\count197
 \MTr@childattachsep=\count198
 ))
+(./include/font.tex) (./include/commands.tex) (./include/en.tex
+\c@example=\count199
+\c@problem=\count200
+\c@algo=\count201
+\c@definition=\count202
+\c@axiom=\count203
+\c@theorem=\count204
+\c@lemma=\count205
+\c@corollary=\count206
+\c@property=\count207
+\c@proposition=\count208
+\c@remark=\count209
+\c@condition=\count210
+\c@assumption=\count211
+\c@conclusion=\count212
+)
 (build/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    ... okay on input line 8.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1103,18 +1119,18 @@ LaTeX Font Info:    ... okay on input line 5.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box100
-Package hyperref Info: Link coloring ON on input line 5.
+Package hyperref Info: Link coloring ON on input line 8.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count199
+\c@section@level=\count213
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
 
 (build/main.out) (build/main.out)
 \@outlinefile=\write4
@@ -1125,7 +1141,8 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
-\c@lstlisting=\count200
+\c@lstlisting=\count214
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1133,33 +1150,20 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 )
 [1
 
-] (build/main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
- (build/main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
- (build/main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 16.
- [1]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 16.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
  (build/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 16.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 16.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 16.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 52.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 25399 strings out of 493938
- 458496 string characters out of 6148856
- 561637 words of memory out of 5000000
- 28283 multiletter control sequences out of 15000+600000
- 8120 words of font info for 33 fonts, out of 8000000 for 9000
+ 25524 strings out of 493938
+ 459697 string characters out of 6148856
+ 566642 words of memory out of 5000000
+ 28400 multiletter control sequences out of 15000+600000
+ 9280 words of font info for 37 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 51i,6n,69p,472b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,10n,69p,472b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on build/main.pdf (2 pages).
+Output written on build/main.pdf (1 page).
