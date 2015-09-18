@@ -2,8 +2,8 @@ SHELL = /bin/bash
 
 XELATEX ?= xelatex
 VIEW_PDF ?= open
-tex_files ?= $(wildcard data/*tex)
-bib_files ?= $(wildcard data/main.bib)
+tex_files ?= $(wildcard include/*tex)
+bib_files ?= $(wildcard include/main.bib)
 
 main.pdf: main.tex $(tex_files) $(bib_files)
 	@mkdir -p build/include
