@@ -7,17 +7,17 @@
 \usepackage{enumerate}
 
 % Hyperlink
-\usepackage[%
-    pdfstartview=FitH,%
-    CJKbookmarks=true,%
-    bookmarks=true,%
-    bookmarksnumbered=true,%
-    bookmarksopen=true,%
-    colorlinks=true,%
-    citecolor=black,%
-    linkcolor=black,%
-    anchorcolor=black,%
-    urlcolor=black%
+\usepackage[
+    pdfstartview=FitH,
+    CJKbookmarks=true,
+    bookmarks=true,
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    colorlinks=true,
+    citecolor=black,
+    linkcolor=black,
+    anchorcolor=black,
+    urlcolor=black
 ]{hyperref}
 
 % Title format
@@ -42,8 +42,11 @@
 \usepackage{amsmath,amssymb}
 \usepackage{latexsym,textcomp}
 
+%% By Xiao Hanyu
 %% 数学公式中的黑斜体
 % \usepackage{bm}
+
+%% By Xiao Hanyu
 %% 调整公式字体大小：\mathsmaller, \mathlarger
 % \usepackage{relsize}
 
@@ -51,7 +54,7 @@
 \usepackage{graphicx}
 \usepackage{subfig}
 
-%%%% pgf/tikz graph
+% pgf/tikz graph
 \usepackage{pgf,tikz}
 \usetikzlibrary{shapes,automata,snakes,backgrounds,arrows}
 \usetikzlibrary{mindmap}
@@ -59,10 +62,10 @@
 \usepackage{fancyhdr}
 \pagestyle{plain}
 
+%% By Xiao Hanyu
 %% 有时会出现\headheight too small的warning
 \setlength{\headheight}{15pt}
 
-%%%% 设置listings宏包用来粘贴源代码
 % Source code
 \usepackage{listings}
 % Algorithm
@@ -76,7 +79,7 @@
 showstringspaces=false,              %% 设定是否显示代码之间的空格符号
 numbers=left,                        %% 在左边显示行号
 numberstyle=\tiny,                   %% 设定行号字体的大小
-basicstyle=\footnotesize,                    %% 设定字体大小\tiny, \small, \Large等等
+basicstyle=\footnotesize,            %% 设定字体大小\tiny, \small, \Large等等
 keywordstyle=\color{blue!70}, commentstyle=\color{red!50!green!50!blue!50},
                                      %% 关键字高亮
 frame=shadowbox,                     %% 给代码加框
