@@ -11,7 +11,7 @@ main.pdf: main.tex $(tex_files) $(bib_files)
 	$(XELATEX) -output-dir=build main.tex
 	@mv build/main.pdf main.pdf
 
-view:
+view: main.pdf
 	$(VIEW_PDF)	"`pwd`"/main.pdf
 
 .PHONY: clean
