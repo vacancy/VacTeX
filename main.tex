@@ -1,20 +1,47 @@
-\documentclass[a4paper, 12pt, titlepage]{article}
+\documentclass[a4paper, 12pt]{article}
 
 \input{include/base}
 \input{include/font}
+\input{include/theme-en}
 \input{include/commands}
-\input{include/zh}
+\input{include/en}
 
 \begin{document}
-%% 中文习惯是设定首行缩进为2em. 注意此设置一定要在document环境之中, 这可能与\setlength作用范围相关
 \setlength{\parindent}{2em}
 
-\title{A Test XeLaTex Document}
-\author{Jiayuan MAO}
+\title{Course X: Homework X}
+\author{Jiayuan MAO} 
+\date{}
 \maketitle
 
-\tableofcontents
-\listoffigures
-\listoftables
+% use input to include your sub tex files
+% \input{src/homework1}
+
+\section{Problem a.}
+\begin{proof}
+    Some proof details.
+\end{proof}
+
+\section{Problem b.}
+\begin{solution}
+    Some solution details.
+\end{solution}
+
+\section{Problem c.}
+\begin{algorithm}[!htbp]
+    \caption{A demo algorithm}
+    \For{$i \in [n]$}{
+        $s \leftarrow s + i$\;
+    }
+\end{algorithm}
+
+\section{Problem d.}
+\begin{lstlisting}[language=c++]
+#include <cstdio>
+int main(void) {
+    printf("Hello World!");
+    return 0;
+}
+\end{lstlisting}
 
 \end{document}
