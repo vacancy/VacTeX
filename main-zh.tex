@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Must put the package import of xeCJK before any other packages.
+% \CJKsetecglue{\hskip 0.15em plus 0.05em minus 0.05em}
+%   slanfont: 允许斜体
+%   boldfont: 允许粗体
+%   CJKnormalspaces: 仅忽略汉字之间的空白,但保留中英文之间的空白。
+%   CJKchecksingle: 避免单个汉字单独占一行。
+\usepackage[slantfont, boldfont]{xeCJK}
+
+\input{include/vacancy}
+\input{include/lang-zh}
+\input{include/theme-zh}
+
+\begin{document}
+\setlength{\parindent}{2em}
+
+\title{课程名：第几次作业}
+\author{Jiayuan MAO} 
+\date{}
+\maketitle
+
+\input{src/example}
+
+\end{document}

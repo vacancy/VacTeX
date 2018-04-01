@@ -1,4 +1,3 @@
-
 % Geometry package, setting margin.
 \usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{multicol}
@@ -32,6 +31,9 @@
 \usepackage{booktabs}
 % Appendix control
 \usepackage[title,titletoc,header]{appendix}
+
+% Font family
+\usepackage{fontspec}
 
 % Font size control
 \usepackage{type1cm}
@@ -93,3 +95,57 @@ xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
 breaklines,                          %% 这条命令可以让LaTeX自动将长的代码行换行排版
 extendedchars=false                  %% 这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
 }
+% Begin mathematical symbols
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\F}{\mathcal{F}}
+
+\newcommand{\Rev}{\textsc{Rev}}
+\newcommand{\SRev}{\textsc{SRev}}
+\newcommand{\BRev}{\textsc{BRev}}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\ER}{\mathrm{ER}}
+
+\newcommand{\ud}{\mathrm{d}}
+\newcommand{\real}{\mathrm{Re}}
+\newcommand{\imag}{\mathrm{Im}}
+
+\newcommand{\KL}{\mathrm{KL}}
+
+\newcommand{\Infer}{\Rightarrow}
+
+% Begin font size
+%% 一号, 1.4倍行距
+\newcommand{\yihao}{\fontsize{26pt}{36pt}\selectfont}
+%% 二号, 1.25倍行距
+\newcommand{\erhao}{\fontsize{22pt}{28pt}\selectfont}
+%% 小二, 单倍行距
+\newcommand{\xiaoer}{\fontsize{18pt}{18pt}\selectfont}
+%% 三号, 1.5倍行距
+\newcommand{\sanhao}{\fontsize{16pt}{24pt}\selectfont}
+%% 小三, 1.5倍行距
+\newcommand{\xiaosan}{\fontsize{15pt}{22pt}\selectfont}
+%% 四号, 1.5倍行距
+\newcommand{\sihao}{\fontsize{14pt}{21pt}\selectfont}
+%% 半四, 1.5倍行距
+\newcommand{\bansi}{\fontsize{13pt}{19.5pt}\selectfont}
+%% 小四, 1.5倍行距
+\newcommand{\xiaosi}{\fontsize{12pt}{18pt}\selectfont}
+%% 大五, 单倍行距
+\newcommand{\dawu}{\fontsize{11pt}{11pt}\selectfont}
+%% 五号, 单倍行距
+\newcommand{\wuhao}{\fontsize{10.5pt}{10.5pt}\selectfont}
+
+%% 中文破折号，据说来自清华模板
+\newcommand{\pozhehao}{\kern0.3ex\rule[0.8ex]{2em}{0.1ex}\kern0.3ex}
+
+%% 设定段间距
+\setlength{\parskip}{0.5\baselineskip}
+%% 设定行距
+\linespread{1}
+%% 设定itemize环境item的符号
+\renewcommand{\labelitemi}{$\bullet$}

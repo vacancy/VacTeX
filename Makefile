@@ -21,3 +21,4 @@ view: main.pdf
 clean:
 	rm -rf build
 	rm -rf main.pdf
+
