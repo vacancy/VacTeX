@@ -1,19 +1,15 @@
 # Introduction
-This is a simple latex template for some basic use.
+This is a simple LaTeX template.
 
-The render engine is XeLatex for better UTF-8 and CJK support.
+Please refer to `main.tex` and `main-zh.tex` for example usage.
+To compile, simply enter `make` or `make view`.
+Note that the project requires render engine XeLaTeX, due to its better UTF-8 and CJK support.
 
 # Thanks
 This project is based on the following project(s):
 
-### xecjk-template
-Author: Xiao Hanyu
+- Xiao Hanyu: [xecjk-template](http://code.google.com/p/xecjk-template)
 
-Email: xiaohanyu1988@gmail.com
+# License
 
-Project Page: http://code.google.com/p/xecjk-template/
-
-# Contact
-Author: Jiayuan MAO
-
-Email: maojiayuan@gmail.com
+MIT.
