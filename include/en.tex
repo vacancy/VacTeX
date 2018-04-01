@@ -1,39 +1,39 @@
 % Begin mathematical envs
 \newtheorem{example}{Example}
 \newtheorem{problem}{Problem}
-\newenvironment{proof}{\noindent\textbf{Proof\ }}{\hspace*{\fill}$\Box$\medskip}
-\newenvironment{solution}{\noindent\textbf{Sol\ }}{\hspace*{\fill}$\Box$\medskip}
+\newenvironment{proof}{\noindent\textsc{Proof\ }}{\hspace*{\fill}$\Box$\medskip}
+\newenvironment{solution}{\noindent\textsc{Sol\ }}{\hspace*{\fill}$\Box$\medskip}
 \newtheorem{algo}{Algorithm}
 
-\newtheorem{definition}{Definition}
-\newtheorem{axiom}{Axiom}
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}
-\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{\textsc{Definition}}
+\newtheorem{axiom}{\textsc{Axiom}}
+\newtheorem{theorem}{\textsc{Theorem}}
+\newtheorem{lemma}{\textsc{Lemma}}
+\newtheorem{corollary}{\textsc{Corollary}}
 
-\newtheorem{property}{Property}
-\newtheorem{proposition}{Proposition}
-\newtheorem{remark}{Remark}
-\newtheorem{condition}{Condition}
-\newtheorem{assumption}{Assumption}
-\newtheorem{conclusion}{Conclusion}
+\newtheorem{property}{\textsc{Property}}
+\newtheorem{proposition}{\textsc{Proposition}}
+\newtheorem{remark}{\textsc{Remark}}
+\newtheorem{condition}{\textsc{Condition}}
+\newtheorem{assumption}{\textsc{Assumption}}
+\newtheorem{conclusion}{\textsc{Conclusion}}
 
 % Section title
-\renewcommand{\contentsname}{Contents}
-\renewcommand{\abstractname}{Abstract}
-\renewcommand{\indexname}{Index}
-\renewcommand{\listfigurename}{List of Figure}
-\renewcommand{\listtablename}{List of Table}
-\renewcommand{\figurename}{Figure}
-\renewcommand{\tablename}{Table}
-\renewcommand{\appendixname}{Appendix}
-\renewcommand{\appendixpagename}{Appendix}
-\renewcommand{\appendixtocname}{Appendix}
-\renewcommand\refname{Reference}
+\renewcommand{\contentsname}{\textsc{Contents}}
+\renewcommand{\abstractname}{\textsc{Abstract}}
+\renewcommand{\indexname}{\textsc{Index}}
+\renewcommand{\listfigurename}{\textsc{List of Figure}}
+\renewcommand{\listtablename}{\textsc{List of Table}}
+\renewcommand{\figurename}{\textsc{Figure}}
+\renewcommand{\tablename}{\textsc{Table}}
+\renewcommand{\appendixname}{\textsc{Appendix}}
+\renewcommand{\appendixpagename}{\textsc{Appendix}}
+\renewcommand{\appendixtocname}{\textsc{Appendix}}
+\renewcommand\refname{\textsc{Reference}}
 % \renewcommand\bibname{Reference}
 
 % Section title format
-\titleformat{\chapter}{\centering\huge}{Chapter \thechapter{}}{1em}{\textbf}
-\titleformat{\section}{\centering\sihao}{\thesection}{1em}{\textbf}
-\titleformat{\subsection}{\xiaosi}{\thesubsection}{1em}{\textbf}
-\titleformat{\subsubsection}{\xiaosi}{\thesubsubsection}{1em}{\textbf}
+\titleformat{\chapter}{\centering\huge}{\textsc{Chapter} \thechapter{}}{1em}{\textbf}
+\titleformat{\section}{\centering\sihao}{\thesection}{1em}{\textsc}
+\titleformat{\subsection}{\xiaosi}{\thesubsection}{1em}{\textsc}
+\titleformat{\subsubsection}{\xiaosi}{\thesubsubsection}{1em}{\textsc}
